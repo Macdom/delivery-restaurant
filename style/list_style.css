@@ -1,0 +1,25 @@
+th{
+	text-align: center;
+}
+
+th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.highlight{
+	background-color: yellow;
+}
+
+tr.element{
+	cursor: pointer;
+}
+
+tr.nagl{
+	background-color: rgb(230, 230, 230);
+}

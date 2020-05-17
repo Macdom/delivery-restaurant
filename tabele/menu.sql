@@ -1,0 +1,7 @@
+CREATE TABLE menu(
+	id_menu SERIAL NOT NULL,
+	nazwa VARCHAR(32) NOT NULL UNIQUE,
+	cena NUMERIC(7,2) NOT NULL,
+	typ VARCHAR(32) NOT NULL,
+	CONSTRAINT menu_pk PRIMARY KEY(id_menu)
+);

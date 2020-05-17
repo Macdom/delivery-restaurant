@@ -1,0 +1,8 @@
+CREATE TABLE kucharz(
+	id_kuch SERIAL NOT NULL,
+	imie VARCHAR(32) NOT NULL,
+	nazwisko VARCHAR(32) NOT NULL,
+	placa NUMERIC(7,2) NOT NULL,
+	telefon VARCHAR(9) NOT NULL UNIQUE,
+	CONSTRAINT kucharz_pk PRIMARY KEY(id_kuch)
+);

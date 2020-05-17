@@ -1,0 +1,9 @@
+CREATE TABLE kurier(
+	id_kur SERIAL,
+	imie VARCHAR(32) NOT NULL,
+	nazwisko VARCHAR(32) NOT NULL,
+	placa NUMERIC(7,2) NOT NULL,
+	telefon VARCHAR(9) NOT NULL UNIQUE,
+	dostepny BOOLEAN NOT NULL,
+	CONSTRAINT kurier_pk PRIMARY KEY(id_kur)
+);

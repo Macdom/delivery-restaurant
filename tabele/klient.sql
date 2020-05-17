@@ -1,0 +1,7 @@
+CREATE TABLE klient(
+	id_kl SERIAL NOT NULL,
+	imie VARCHAR(32) NOT NULL,
+	nazwisko VARCHAR(32) NOT NULL,
+	telefon VARCHAR(9) NOT NULL UNIQUE,
+	CONSTRAINT klient_pk PRIMARY KEY(id_kl)
+);

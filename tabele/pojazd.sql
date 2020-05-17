@@ -1,0 +1,7 @@
+CREATE TABLE pojazd(
+	id_poj SERIAL NOT NULL,
+	model VARCHAR(32) NOT NULL,
+	cena NUMERIC(7,2) NOT NULL,
+	dostepny BOOLEAN NOT NULL,
+	CONSTRAINT pojazd_pk PRIMARY KEY(id_poj)
+);
